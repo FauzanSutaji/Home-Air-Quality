@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imagethirdactivity"
+            android:layout_width="412dp"
+            android:layout_height="336dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="2dp"
+            android:src="@drawable/thirdactivity"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/textViewfirstactivitytitle"
+            android:layout_width="349dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Discover our vulnerability against indoor air pollution"
+            android:fontFamily="@font/inter_bold"
+            android:textColor="#090909"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="348dp" />
+
+        <TextView
+            android:id="@+id/textViewfirstactivitydesc"
+            android:layout_width="349dp"
+            android:layout_height="107dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#090909"
+            android:fontFamily="@font/inter"
+            android:justificationMode="inter_word"
+            android:text="The Air Quality Index (AQI) is used for reporting daily air quality. It tells you how clean or polluted your air is, and what associated health effects might be a concern for you."
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="377dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp">
+
+            <Button
+                android:id="@+id/buttonContinue3"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="GET STARTED"
+                android:fontFamily="@font/inter_bold"
+                android:backgroundTint="#3B96EE"
+                app:cornerRadius="20dp"
+                android:layout_marginLeft="230dp"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="515dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

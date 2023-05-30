@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "531599586299",
+    "firebase_url": "https://fyp-aqi-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fyp-aqi",
+    "storage_bucket": "fyp-aqi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531599586299:android:3f1db63f7b3894f638d15e",
+        "android_client_info": {
+          "package_name": "com.example.homeairquality"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531599586299-uqq6h71t643ja69p6tpt7jg580r32ne9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhrgi-rCNY3OqySi7Th1PnbuvvnYFAmuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531599586299-uqq6h71t643ja69p6tpt7jg580r32ne9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

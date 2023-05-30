@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item>
+        <bitmap
+            android:gravity="center_vertical"
+            android:src="@drawable/airtracknoti"
+            android:width="208dp"
+            android:height="208dp"
+            android:viewportWidth="208"
+            android:viewportHeight="208"/>
+    </item>
+
+</selector>
